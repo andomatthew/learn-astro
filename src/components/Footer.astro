@@ -1,0 +1,24 @@
+---
+import Social from "../components/Social.astro"
+
+const platform = "github"
+const username = "andomatthew"
+---
+
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
+
+<footer>
+  <p>
+    Learn more about my projects on <Social
+      platform="github"
+      username="andomatthew"
+    />
+  </p>
+  <p>Or visit my <Social platform="instagram" username="andomatthew" /></p>
+</footer>
